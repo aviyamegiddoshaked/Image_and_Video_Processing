@@ -1,0 +1,29 @@
+/* הגדלת כל הטקסטים */
+html, body, [class*="css"]  {
+    font-size: 20px !important;
+}
+
+/* הגדלת כפתורים */
+div.stButton > button {
+    font-size: 22px;
+    padding: 10px 24px;
+}
+
+/* הגדלת תיבות בחירה (selectbox) */
+.css-1d391kg, .stSelectbox {
+    font-size: 20px !important;
+}
+
+/* הגדלת כותרות */
+h1 {
+    font-size: 2em !important;
+}
+
+h2, h3, h4 {
+    font-size: 1em !important;
+}
+
+/* הגדלת סליידר */
+.css-1emrehy .stSlider > div {
+    height: 50px;
+}
